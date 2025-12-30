@@ -23,7 +23,7 @@ public class StudentResult {
 
         average = total / 10;
 
-        if (average >= passMark) {
+       if (average > passMark) {
             System.out.println("Overall Result: Pass");
         } else {
             System.out.println("Overall Result: Fail");
