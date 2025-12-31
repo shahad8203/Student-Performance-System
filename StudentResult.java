@@ -18,7 +18,8 @@ public class StudentResult {
         }
 
         for (i = 0; i < 10; i++) {
-            total = total + marks[i];
+            total = total + (marks[i] * 1);
+
         }
 
         average = total / 10;
